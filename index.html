@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>quinta aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temas9.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/jitomate.jpg')" >
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> UNIVERSIDADES</h1>
+<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="visor/data1/images/campo.jpg" alt="campo" title="campo" id="wows1_0"/></li>
+<li><img src="visor/data1/images/campo1.jpg" alt="campo1" title="campo1" id="wows1_1"/></li>
+<li><img src="visor/data1/images/empresa.jpg" alt="empresa" title="empresa" id="wows1_2"/></li>
+<li><img src="visor/data1/images/perma.png" alt="perma" title="perma" id="wows1_3"/></li>
+<li><img src="visor/data1/images/permacultura.jpg" alt="permacultura" title="permacultura" id="wows1_4"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="campo"><img src="visor/data1/tooltips/campo.jpg" alt="campo"/>1</a>
+<a href="#" title="campo1"><img src="visor/data1/tooltips/campo1.jpg" alt="campo1"/>2</a>
+<a href="#" title="empresa"><img src="visor/data1/tooltips/empresa.jpg" alt="empresa"/>3</a>
+<a href="#" title="perma"><img src="visor/data1/tooltips/perma.png" alt="perma"/>4</a>
+<a href="#" title="permacultura"><img src="visor/data1/tooltips/permacultura.jpg" alt="permacultura"/>5</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slider Java</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="visor/engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+</div>
+
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Ingenieria en Biotecnología Agrícola</h2>
+<p> Se muestra información</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Licenciatura en Permacultura</h2>
+<p> Se muestra información</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Licenciatura en Administración de Empresas</h2>
+<p>Muestra información</p>
+</a>
+</li>
+
+
+</ul>
+
+<div data-role="main" class="ui-content">
+<div data-role="content" align="center">
+<div data-role="collapsible" data-theme="a" data-content-theme="false">
+<h1> Realizado por: </h1>
+<div> 
+<p><h2> JOSÉ EVERARDO PLATA CHORA</h2></p> 
+<p><h3> Centro de Bachillerato Tecnologico <br>industrial y de servicios no.16</p>
+
+<p>CBTis. 16</p>
+<p>4º "H"</h3></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4> Aplicación once</h4>
+<h4> José Everardo Plata Chora</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Universidades</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Biotecnología Agrícola</h2>
+</div>
+<p> En general, se entiende por biotecnología toda técnica que utiliza organismos vivos o sustancias obtenidas de esos organismos para crear o modificar un producto con fines prácticos). La biotecnología puede aplicarse a todo tipo de organismos, desde los virus y las bacterias a los animales y las plantas, y se está convirtiendo en un elemento importante de la medicina, la agricultura y la industria modernas. La biotecnología agrícola moderna comprende una variedad de instrumentos que emplean los científicos para comprender y manipular la estructura genética de organismos que han de ser utilizados en la producción o elaboración de productos agrícolas.</p>
+<br>
+<div data-role="content" align="center">
+<iframe width="50%" height="40%" src="https://www.youtube.com/embed/5e5SccCDkD4" frameborder="0" allowfullscreen></iframe></div>
+<p> Para mayor información <a href="http://universidades.estudia.com.mx/u35014-universidad-tecnologica-izucar-matamoros.html"> da clic aquí</a></p>
+
+
+
+
+<div data-role="main" class="ui-content">
+<div data-role="content" align="center">
+<div data-role="collapsible" data-theme="a" data-content-theme="false">
+<h1> Perfil del egresado</h1>
+<div> 
+<ul>
+<li> Un profesional en biotecnología es capaz de diseñar y mejorar procesos tecnológicos basados en sistemas vivos.</li><br>
+<li>El profesional será capaz ahora de identificar y caracterizar microorganismos de uso industrial y su aplicación en la obtención de productos.</li><br>
+<li>Aislar y manipular biomoléculas y microorganismos mediante el uso de técnicas de biología molecular, microbiología y bioquímica, con el objeto de producir nuevos medicamentos, alimentos, plantas, entre otros.</li><br>
+<li>Es un emprendedor muy creativo además de respetuoso del medio ambiente y con las personas.</li><br>
+<li>Puede prevenir y tratar desechos urbanos, industriales y agrícolas aplicando procesos biotecnológicos.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4> Aplicación once</h4>
+<h4> José Everardo Plata Chora</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Licenciatura en Permacultura</h1>
+</div>
+<div data-role="content" align="center">
+<p><strong>Permacultura</strong> es un término genérico para  la aplicación de éticas y  principios de diseño universales en planeación,  desarrollo, mantenimiento, organización y la preservación de hábitat apto de sostenerse en el futuro.
+
+La Permacultura también es una  red y un movimiento internacional de practicantes, diseñadores y organizaciones, la gran mayoría de las cuales se han desarrollado y sostenido sin apoyo de corporaciones, instituciones o gobiernos.</p>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/jitomate.jpg',1)"><img src="imagenes/granja.jpg" width="50%" height="40%" id="Image16"></a> </div>
+<div>
+<p>Para mayor información <a href="http://www.permacultura.org.mx/es/proyecto/michoacan-de-ocampo/granja-tierramor/">da clic aquí</a></p>
+<div data-role="main" class="ui-content">
+<div data-role="content" align="center">
+<div data-role="collapsible" data-theme="a" data-content-theme="false">
+<h1> Perfil de egreso</h1>
+<div> 
+<p>El egresado de la Licenciatura en Permacultura será un profesional responsable con un actuar fundamentado en el conocimiento teórico de los métodos de bioagricultura, ganadería, desarrollo social comunitario, diseño y eco-construcción, sustentabilidad aplicada,  energías renovables e investigación, así como la aplicación práctica de técnicas, procedimientos, tecnologías y herramientas para el manejo adecuado de los procesos permaculturales.  Asimismo, será capaz de interactuar y trabajar en equipos multidisciplinarios, ejercer su profesión con ética y responsabilidad, y proteger el medio ambiente, los derechos humanos y la diversidad cultural.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4> Aplicación once</h4>
+<h4> José Everardo Plata Chora</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Administración de Empresas</h1>
+</div>
+<div data-role="content" align="center">
+
+<p>La <strong>administración de empresas</strong> es una actividad destinada a organizar los recursos empresariales, humanos y materiales, en vistas a la consecución de sus objetivos. Para ello se elabora un plan estratégico en miras a la misión o fin a largo plazo que la organización se propone.</p>
+<div>
+<img src="imagenes/admi.jpg" width="50%" height="40%">
+</div>
+<div>
+<p> Para mayor información da <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/administracion_de_empresas_1">clic aquí</a></p>
+<div data-role="main" class="ui-content">
+<div data-role="content" align="center">
+<div data-role="collapsible" data-theme="a" data-content-theme="false">
+<h1> Perfil de egreso</h1>
+<div> 
+<p> El egresado de la maestría en administración de negocios contarán con una sólida formación integral, con conocimientos teórico-prácticos en administración, capaz de desarrollar modelos estratégicos que permitan generar valor a las organizaciones, siendo un profesional con habilidades, actitudes, aptitudes y valores éticos- morales que le permitirán servir a la sociedad y en su caso integrarse a estudios de doctorado.</p>
+<p>Un egresado de esta maestría mostrará:</p>
+<ul>
+<li>La aplicación metódica del conocimiento administrativas que conduzca de manera eficiente la dinámica y recursos de las organizaciones;</li><br>
+<li>Actitud analíticas, reflexiva y constructiva para realizar y aplicar investigación con método que le permita desarrollar soluciones creativas bajo un esquema de pensamiento prospectivo y estratégico;</li><br>
+<li>Capacidad para incrementar el desempeño de la organización con un crecimiento sustentable.​</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4> Aplicación once</h4>
+<h4> José Everardo Plata Chora</h4>
+</div>
+</div>
+</div>
+
+</body>
+</html>
